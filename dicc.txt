@@ -1,0 +1,66 @@
+iccionario de atributos:
+    "Loan_ID": {
+        "descripcion": "Código único de identidad del cliente",
+        "tipo": "object",
+        "formato": "Inicia con 2 letras en mayúscula seguido de 6 números, sin espacio"
+    },
+    "Gender": {
+        "descripcion": "variable categorica, genero del cliente"
+        "tipo": "object"
+        "formato": "Dos posibles valores, 'Male' and 'Female'"
+    },
+    "Married": {
+        "descripcion": "Estado civil del cliente"
+        "tipo": "Boolean value"
+        "formato": "True", "False"
+    },
+    "Dependants": {
+        "descripcion": "Numero de hijos del cliente"
+        "tipo": "Int"
+        "formato": "numero entero"
+    },
+    "Education":{
+        "descripcion": "Variable categorica"
+        "Tipo": "object"
+        "formato": "Graduate","Not Graduate"
+    },
+    "Self_Employed": {
+        "descripcion": "Variable categorica, empleado por cuenta propia"
+        "Tipo": "Boolean value"
+        "formato": "True", "False"
+    },
+    "ApplicantIncome": {
+        "descripcion": "Monto de ingreso mensual del cliente"
+        "tipo": "Int"
+        "formato": "Numero"
+    },
+    "CoapplicantIncome": {
+        "descripcion": "Monto de ingreso mensual del conyuge/coaplicante del cliente"
+        "tipo": "float"
+        "formato": "Numero decimal"
+    },
+    "LoanAmount": {
+        "descripcion": "Monto del credito otorgado"
+        "tipo": "float"
+        "formato": "Numero decimal"
+    },
+    "Loan_Amount_Term": {
+        "descripcion": "Numero de meses para el vencimiento del credito"
+        "tipo": "float"
+        "formato": "Numero decimal"
+    },
+    "Credit_History": {
+        "descripcion": "Expresion numerica de variable categorica. Historial crediticio del cliente (1.0 = SI; 0.0 = NO)"
+        "tipo": "float"
+        "formato": "Numero decimal"
+    },
+    "Property_Area": {
+        "descripcion": "Variable categorica. Tipo de area de la propiedad del cliente"
+        "tipo": "object"
+        "formato": "Rural", "Semi Urban", "Urban"
+    },
+    "Loan_Status": {
+         "descripcion": "Variable categorica. estatus de aprobacio del credito"
+        "tipo": "object"
+        "formato": "Y" = "SI", "N" = "NO"
+    }
